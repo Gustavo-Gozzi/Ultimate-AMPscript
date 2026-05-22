@@ -1,4 +1,4 @@
-*Get Attributes from Data Extensions
+# Get Attributes from Data Extensions
 
 [ING]
 
