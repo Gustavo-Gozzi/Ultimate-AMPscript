@@ -1,0 +1,27 @@
+%%[
+/*Thats how we make comments!*/
+var @name
+
+set @name = 'jhon'
+set @concatenar = CONCAT('That', 'how we make concatenation', ' ', @name) /* That how we make concatenation jhon */
+
+set @nameUp = Uppercase(@name)  /* JHON */
+set @nameLow = Lowercase(@name) /* jhon */
+set @nameNormal = Propercase(@name) /* Jhon */
+set @nameLeng = Length(@name) /* 4 */
+
+set @city = '  Sao   Paulo     City  '
+set @cityClean = Trim(@city) /* Sao Paulo City (this function remove useless spaces)*/ 
+
+
+]%%
+
+
+<html>
+    <p>Concat       Output: %%=v(@concatenar)=%%</p>
+    <p>UpperCase    Output: %%=v(@nameUp)=%%</p>
+    <p>LowerCase    Output: %%=v(@nameLow)=%%</p>
+    <p>ProperCase   Output: %%=v(@nameNormal)=%%</p>
+    <p>Length       Output: %%=v(@nameLeng)=%%</p>
+    <p>Trim         Output: %%=v(@cityClean)=%%</p>
+</html>

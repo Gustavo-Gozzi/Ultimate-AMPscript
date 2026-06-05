@@ -8,6 +8,7 @@ This is your first step into AMPscript. Let's start from the basics!
 Here, you will learn about syntax, variables, basic functions and the fundamentals of conditionals (if/else).
 
 
+
 [PT-BT]
 Eai gente! Espero que estejam bem!
 
